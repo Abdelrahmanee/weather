@@ -1,0 +1,52 @@
+
+:root{
+    --main-color : #009ad8
+}
+.footer{
+    background-color: #262936;
+    padding: 50px 0;
+}
+.form-cont{
+    margin-bottom: 30px;
+}
+.sub-input{
+    padding: 20px 100px 20px 20px;
+    background-color: #1e202b;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+.sub-btn{
+    border: none;
+    background: var(--main-color);
+    padding: 7px 20px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1e202b;
+    margin-right: 7px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.icon i{
+    font-size: 1.4285714286em;
+    color: var(--main-color);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color: var(--main-color);
+}
+.icon:hover i{
+    color: #fff;
+}
+

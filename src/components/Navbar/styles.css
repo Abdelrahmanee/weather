@@ -1,0 +1,44 @@
+.navbar{
+    padding: 50px 0px;
+}
+.logo{
+    width: 64px;
+    aspect-ratio: auto 64 / 38;
+    height: 38px;
+}
+.logo-items h1{
+    font-size: 16px;
+}
+.logo-items p{
+    font-size: 10px;
+}
+.nav-item{
+    margin-left: 10px;
+    font-weight: 400;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    border-color: #009ad8;
+    color: #009ad8 !important;
+    border-radius: 30px;
+    padding: 2px 25px;
+    border: 2px solid #009ad8;
+    font-weight: 400;
+    transition: 0.5s ease;
+}
+.nav-link{
+    color: #fff !important;
+    border-radius: 30px;
+    padding: 2px 25px !important;
+    border: 2px solid transparent;
+    font-weight: 400;
+    transition: 0.5s ease;
+    
+}
+.nav-link:hover{
+    border-color: #009ad8;
+    color: #009ad8;
+    border-radius: 30px;
+    padding: 2px 25px !important;
+    border: 2px solid #009ad8;
+
+}

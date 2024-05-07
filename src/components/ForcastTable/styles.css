@@ -1,0 +1,17 @@
+:root {
+    --bs-table-bg: #009ad8
+}
+
+.tb-scroll {
+    overflow-x: auto;
+}
+/* rgb(0 12 77) */
+
+
+.table {
+    /* --bs-table-bg: rgba(11, 158, 207 , .1) !important; */
+    /* --bs-emphasis-color: #fff !important; */
+    /* --bs-table-striped-color: black !important; */
+    /* border-color: black !important; */
+    /* --bs-table-color-type : inherit !important; */
+}
